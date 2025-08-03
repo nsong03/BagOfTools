@@ -4,6 +4,15 @@ A collection of utilities for atomic physics simulations. The toolkit is
 in an early stage and currently contains code for computing Zeeman energy
 splittings in Rubidium.
 
+## Installation
+
+To make the local ``atomic_tools`` package importable from anywhere in this
+repository install it in editable mode:
+
+```bash
+pip install -e .
+```
+
 ## Usage
 
 The main functionality lives in `atomic_tools.zeeman`. Example:
